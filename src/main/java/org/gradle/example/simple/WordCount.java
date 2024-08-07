@@ -93,7 +93,7 @@ public class WordCount {
 
         OpenLineageClient client = OpenLineageClient.builder()
         .transport(HttpTransport.builder()
-            .uri("http://localhost:5000")
+            .uri("http://api:5000")
             .build())
         .build();
 
